@@ -1,5 +1,7 @@
 # Go x Kafka
 
+![alt text](https://github.com/naufalziyad/Go-Kafka/blob/master/img/gokafka.png | width=250)
+
 Kafka is used for building real-time data pipelines and streaming apps. It is horizontally scalable, fault-tolerant, wicked fast, and runs in production in thousands of companies.
 
 We will implement Kafka x Golang using Docker.
@@ -10,8 +12,8 @@ We will implement Kafka x Golang using Docker.
 * [Docker] - version 19.03.2
 * [Kafka] - using docker images
 * [Zookeeper] - using docker images
-** [Golang Library] - github.com/Shopify/sarama
-** [Golang Library] - github.com/sirupsen/logrus
+* [Golang Library] - github.com/Shopify/sarama
+* [Golang Library] - github.com/sirupsen/logrus
 
 ### Setup Go x Kafka
 
@@ -49,18 +51,23 @@ Run Services Consumer & Publisher
 cd [Repo Project]/action/consumer
 ```
 ```sh
-go Run main.go`
+go Run main.go
 ```
 
 * Terminal 2 Publisher
-`cd [Repo Project]/action/publisher`
-`go Run main.go`
+```sh 
+cd [Repo Project]/action/publisher
+```
+```sh
+go Run main.go
+```
 
 ### Result
 ![alt text](https://github.com/naufalziyad/Go-Kafka/blob/master/img/kafka-naufal.gif)
 
 
 #### Thanksfull
-https://medium.com/easyread/implementasi-kafka-menggunakan-golang-testing-db183e0b3c29
-https://kafka.apache.org/
-https://golang.org/
+`https://golang.org/`
+`https://medium.com/easyread/implementasi-kafka-menggunakan-golang-testing-db183e0b3c29`
+`https://kafka.apache.org/`
+`https://www.docker.com/`
