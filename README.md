@@ -51,7 +51,7 @@ Run Services Consumer & Publisher
 cd [Repo Project]/action/consumer
 ```
 ```sh
-go Run main.go
+go run main.go
 ```
 
 * Terminal 2 Publisher
@@ -59,7 +59,7 @@ go Run main.go
 cd [Repo Project]/action/publisher
 ```
 ```sh
-go Run main.go
+go run main.go
 ```
 
 ### Result
