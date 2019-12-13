@@ -40,6 +40,12 @@ Run Apache Kafka image
 docker run --net=kafka -d -p 9092:9092 --name=kafka -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 confluentinc/cp-kafka:4.1.0
 ```
 
+Check running docker containers
+```sh
+docker ps
+```
+![alt text](https://github.com/naufalziyad/Go-Kafka/blob/master/img/naufal-docker-ps.png)
+
 Add your DNS kafka
 ```sh 
 127.0.0.1 kafka
