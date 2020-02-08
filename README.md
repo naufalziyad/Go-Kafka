@@ -1,6 +1,6 @@
 # Go x Kafka
 
-![alt text](https://goreportcard.com/badge/github.com/naufalziyad/Go-Kafka)
+[![Go Report Card](https://goreportcard.com/badge/github.com/naufalziyad/Go-Kafka)](https://goreportcard.com/report/github.com/naufalziyad/Go-Kafka)
 
 ![alt text](https://github.com/naufalziyad/Go-Kafka/blob/master/img/gokafka.png)
 
