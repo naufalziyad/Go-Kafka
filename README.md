@@ -1,5 +1,7 @@
 # Go x Kafka
 
+![alt text](https://goreportcard.com/badge/github.com/naufalziyad/Go-Kafka)
+
 ![alt text](https://github.com/naufalziyad/Go-Kafka/blob/master/img/gokafka.png)
 
 Kafka is used for building real-time data pipelines and streaming apps. It is horizontally scalable, fault-tolerant, wicked fast, and runs in production in thousands of companies.
